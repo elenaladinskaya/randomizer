@@ -48,6 +48,7 @@ body {
 
 button {
   position: absolute;
+  line-height: 1.4;
   left: 50%;
   bottom: 100%;
   transform: translateX(-50%);
@@ -87,7 +88,7 @@ button.disabled {
 @media screen and (max-width: 480px) {
   .result {
     width: 80%;
-    padding: 20px;
+    padding: 20px 40px;
   }
 }
 
