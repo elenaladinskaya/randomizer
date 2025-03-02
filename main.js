@@ -2,7 +2,7 @@ const resultBtn = document.getElementById('resultBtn');
 const result = document.getElementById('result');
 
 async function getData() {
-  const response = await fetch("investigators.json");
+  const response = await fetch("investigators.js");
   const resultArr = await response.json();
   const randomItem = resultArr[getArrayRandomIndex(resultArr)];
   result.innerHTML = `
