@@ -25,14 +25,14 @@ resultBtn.addEventListener('click', e => {
 
   resultBtn.classList.toggle('disabled');
   resultBtn.disabled = true;
-  resultBtn.textContent = '▼';
+  resultBtn.textContent = 'Твой сыщик▼';
 });
 
 document.addEventListener('click', e => {
   if (e.target.id === 'closeBtn') {
     result.style.display = 'none';
     resultBtn.classList.toggle('disabled');
-    resultBtn.textContent = 'Выбрать случайного сыщика';
+    resultBtn.textContent = 'Выбрать сыщика';
     resultBtn.disabled = false;
   }
 });
