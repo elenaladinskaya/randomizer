@@ -25,14 +25,14 @@ resultBtn.addEventListener('click', e => {
 
   resultBtn.classList.toggle('disabled');
   resultBtn.disabled = true;
-  resultBtn.textContent = 'Результат ▼';
+  resultBtn.textContent = '▼';
 });
 
 document.addEventListener('click', e => {
   if (e.target.id === 'closeBtn') {
     result.style.display = 'none';
     resultBtn.classList.toggle('disabled');
-    resultBtn.textContent = 'Рандомный вариант';
+    resultBtn.textContent = 'Выбрать случайного сыщика';
     resultBtn.disabled = false;
   }
 });
